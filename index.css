@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(230, 230, 230, 0.9)), url('https://source.unsplash.com/1600x900/?finance,marketing');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.navbar {
+    background-color: #2E8B57;
+}
+.text {
+    font-weight: bold;
+    color: #fff;
+    padding: 15px;
+}
+.navbar p {
+    margin: 0;
+    font-size: 1rem;
+    color: #fff;
+}
+.header-display {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.header-display p {
+    font-size: 1.5rem;
+    color: #2E8B57;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    margin-bottom: auto;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-header {
+    background-color: #2E8B57;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+.btn-primary {
+    background-color: #2E8B57;
+    border: none;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #2E8B57;
+}
+.footer {
+    background-color: #2E8B57;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.input-label {
+    font-weight: bold;
+    color: #555;
+}
